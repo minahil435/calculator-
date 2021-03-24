@@ -1,0 +1,124 @@
+
+
+body{
+    background-color:#293241; 
+}
+
+
+#app{
+    width: 300px;
+    height: 500px; 
+    background-color: #E0FBFC;
+}
+#main {
+   
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:  "displayArea displayArea displayArea displayArea"
+                          "plus minus cross divide"
+                          "seven eight nine equal"
+                          "four five six equal"
+                          "one two  three equal"
+                          "zer period clear equal";
+     
+     
+  }
+
+  .fontStyle{
+    font-weight:bold;
+    font-size:x-large;
+    color: white;
+  }
+
+  .curveBox{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .tools{
+    background-color: #3D5A80; 
+    width : 50px;
+    height : 50px;
+    margin: 5px;
+
+  }
+
+ 
+  .curveBox :hover {
+    background-color:black;
+  }
+  .num{
+    background-color: #97C1D9; 
+    width : 50px;
+    height : 50px;
+    margin: 5px;
+
+  }
+
+  #displayArea{
+    grid-area: displayArea;
+    background-color:#293241;
+    height: 70%;
+    width : 100%;
+  }
+
+  #plus{
+    grid-area: plus;
+  }
+
+  #minus{
+    grid-area: minus;
+  }
+
+  #cross{
+    grid-area: cross;
+  }
+  #divide{
+    grid-area: divide;
+  }
+  #one{
+    grid-area: one;
+  }
+  #two{
+    grid-area: two;
+  }
+  #three{
+    grid-area: three;
+  }
+  #four{
+    grid-area: four;
+  }
+  #five{
+    grid-area: five;
+  }
+  #six{
+    grid-area: six;
+  }
+  #seven{
+    grid-area: seven;
+  }
+  #eight{
+    grid-area: eight;
+  }
+  #nine{
+    grid-area: nine;
+  }
+  #zero{
+    grid-area: zer;
+  }
+  #period{
+    grid-area: period;
+  }
+  #clear{
+    grid-area: clear;
+  }
+  #equal{
+    grid-area: equal;
+    width : 50px;
+    margin: 5px;
+    background-color: #EE6C4D;
+  }
