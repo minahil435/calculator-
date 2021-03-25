@@ -47,10 +47,13 @@ body{
 
   }
 
- 
-  .curveBox :hover {
+  .tools :hover {
     background-color:black;
   }
+  .num :hover {
+    background-color:black;
+  }
+
   .num{
     background-color: #97C1D9; 
     width : 50px;
